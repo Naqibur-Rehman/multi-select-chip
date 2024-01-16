@@ -11,3 +11,99 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.App {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faf9f9;
+  height: 70vh;
+}
+
+.multiselect {
+  width: 60%;
+  max-width: 1000px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  border-bottom: 2px solid blue;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list__item:hover {
+  background-color: #ededed;
+}
+
+.profile--image {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.list__item p {
+  font-size: .9rem;
+  margin-right: 10px;
+  color: #7f7f7f;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #dfdfdf;
+  color: #7f7f7f;
+  margin: 0 5px;
+  border-radius: 20px;
+}
+
+.chip--image{
+  margin: 0 10px 0 0;
+}
+
+.chip p {
+  margin: 0;
+}
+
+.chip span {
+  cursor: pointer;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* border-bottom: 2px solid blue; */
+}
+
+.input {
+  width: 200%;
+  height: 32px;
+  position: relative;
+  border: none;
+  outline: none;
+  font-size: .9rem;
+  background-color: #faf9f9;
+}
+
+.dropdown {
+  position: absolute;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  max-height: 400px;
+  overflow: auto;
+}
